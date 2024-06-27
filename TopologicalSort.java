@@ -50,11 +50,14 @@ public class TopologicalSort {
   public static void main(String[] args) {
     // Número de vértices, pegar do teclado
     Scanner sc = new Scanner(System.in);
+    System.out.println("Escreva o número de vértices: ");
     int verticeNumber = sc.nextInt();
+    System.out.println("Escreva o número de arestas: ");
     int edgeNumber = sc.nextInt();
     List<List<Integer>> edges = new ArrayList<>();
 
     // Preenchendo a lista de arestas
+    System.out.println("Escreva as arestas: ");
     for (int i = 0; i < edgeNumber; i++) {
       int a = sc.nextInt();
       int b = sc.nextInt();
