@@ -1,4 +1,4 @@
-// Código retirado de: https://www.geeksforgeeks.org/topological-sorting/
+// Código baseado em: https://www.geeksforgeeks.org/topological-sorting-indegree-based-solution/
 
 import java.util.*;
 
